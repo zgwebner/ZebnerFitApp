@@ -22,4 +22,12 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
+
+    <TextView
+        android:id="@+id/stepCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steps: Loading..."
+        android:textSize="28sp" />
+
 </androidx.drawerlayout.widget.DrawerLayout>
